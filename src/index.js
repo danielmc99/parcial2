@@ -13,6 +13,6 @@ getLocale();
 
 ReactDOM.render(
     <IntlProvider locale={getLocale()} messages={getLocale() === "es-ES" ? localeEsMessages : localeEnMessages}>
-        <houseList/>
+        <houseList />
     </IntlProvider>, document.getElementById("root")
 );

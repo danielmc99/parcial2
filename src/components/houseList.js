@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import House from "./house";
 import { FormattedMessage } from 'react-intl';
 
-const JobsList = () => {
+const houseList = () => {
   const [offers] = useState([
     {
       "name": "Casa Bogotá",
@@ -37,30 +37,13 @@ const JobsList = () => {
       "id": "A002"
     }
   ]);
-
   return (
-    <div>
-      <table className="table">
-        <thead className="thead-dark">
-          <tr>
-            <th scope="col"><FormattedMessage id="#"/></th>
-            <th scope="col"><FormattedMessage id="Position"/></th>
-            <th scope="col"><FormattedMessage id="Company"/></th>
-            <th scope="col"><FormattedMessage id="Salary"/></th>
-            <th scope="col"><FormattedMessage id="City"/></th>
-            <th scope="col"><FormattedMessage id="PublicationDate"/></th>
-            <th scope="col"><FormattedMessage id="Views"/></th>
-          </tr>
-        </thead>
-        <tbody>
-          {console.log("Offers", offers)}
-          {offers.map((e, i) => (
-            <House key={i} offer={e} />
-          ))}
-        </tbody>
-      </table>
+    <div className="container mt-4">
+      <h1 ><center><FormattedMessage id="SmartHome" /></center> </h1>
+      <h1><FormattedMessage id="MySpaces" /></h1>
+      <Spaces />
     </div>
   );
 };
 
-export default JobsList;
+export default houseList;

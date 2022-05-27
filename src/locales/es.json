@@ -1,10 +1,9 @@
 {
-	"Position": "Nombre del cargo",
-	"Company": "Empresa",
-	"Salary": "Salario",
-	"City": "Ciudad",
-	"PublicationDate": "Fecha de publicación",
-	"Views": "No. de visitas",
-    "million":"millon",
-    "millions":"millones"
+	"Devices": "Dispositivos",
+	"Value": "Valor",
+    "Name":"Nombre",
+    "Address":"Direccion",
+	"Phone":"Telefono",
+	"Type":"Tipo",
+	"MySpaces":"Mis espacios"
 }

@@ -4,5 +4,6 @@
     "Name":"Name",
     "Address":"Address",
 	"Phone":"Phone",
-	"Type":"Type"
+	"Type":"Type",
+	"MySpaces":"My spaces"
 }

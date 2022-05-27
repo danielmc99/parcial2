@@ -1,0 +1,8 @@
+{
+	"Devices": "Devices",
+	"Value": "Value",
+    "Name":"Name",
+    "Address":"Address",
+	"Phone":"Phone",
+	"Type":"Type"
+}
